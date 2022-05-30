@@ -129,7 +129,7 @@ jobs:
         run: cat Cobertura.xml
 
       - name: Display coverage
-        uses: ewjoachim/coverage-comment-action@v1
+        uses: ewjoachim/python-coverage-comment-action@v2
         with:
           COVERAGE_FILE: "Cobertura.xml"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
