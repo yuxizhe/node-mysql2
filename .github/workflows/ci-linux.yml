@@ -94,18 +94,18 @@ jobs:
       
   coverage:
     permissions:
-      actions: read
-      checks: read
-      contents: read
-      deployments: read
-      issues: read
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      issues: write
       discussions: write
-      packages: read
-      pages: read
-      pull-requests: read
-      repository-projects: read
-      security-events: read
-      statuses: read
+      packages: write
+      pages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
     needs: [ tests-linux ]
     runs-on: ubuntu-latest
     steps:
