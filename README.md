@@ -281,3 +281,4 @@ Want to improve something in `node-mysql2`. Please check [Contributing.md](https
 [license-image]: https://img.shields.io/npm/l/mysql2.svg?maxAge=2592000
 [node-mysql]: https://github.com/mysqljs/mysql
 [mysql-native]: https://github.com/sidorares/nodejs-mysql-native
+
